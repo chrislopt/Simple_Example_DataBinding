@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 invalidateAll()
             }
             buttonAddIn.setOnClickListener {
-                this@MainActivity.outCounter.count++
+                this@MainActivity.inCounter.count++
                 invalidateAll()
             }
         }
